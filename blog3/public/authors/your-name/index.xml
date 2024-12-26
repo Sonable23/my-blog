@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your Name on haison</title>
+    <link>http://localhost:1313/authors/your-name/</link>
+    <description>Recent content in Your Name on haison</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Jan 2024 10:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/your-name/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới thiệu về Lập trình Hướng đối tượng (OOP) trong Java</title>
+      <link>http://localhost:1313/posts/html-and-css-only-tabs/</link>
+      <pubDate>Thu, 04 Jan 2024 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/html-and-css-only-tabs/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-hướng-đối-tượng-oop-là-gì&#34;&gt;&#xD;&#xA;  Lập trình Hướng đối tượng (OOP) là gì?&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#l%e1%ba%adp-tr%c3%acnh-h%c6%b0%e1%bb%9bng-%c4%91%e1%bb%91i-t%c6%b0%e1%bb%a3ng-oop-l%c3%a0-g%c3%ac&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Lập trình Hướng đối tượng (OOP) là một mô hình lập trình dựa trên khái niệm &amp;ldquo;đối tượng&amp;rdquo;, có thể chứa dữ liệu, dưới dạng các trường, thường được gọi là thuộc tính; và mã, dưới dạng các thủ tục, thường được gọi là phương thức.&lt;/p&gt;&#xA;&lt;h3 id=&#34;các-nguyên-tắc-cơ-bản-của-oop&#34;&gt;&#xD;&#xA;  Các nguyên tắc cơ bản của OOP&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#c%c3%a1c-nguy%c3%aan-t%e1%ba%afc-c%c6%a1-b%e1%ba%a3n-c%e1%bb%a7a-oop&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;OOP dựa trên bốn nguyên tắc chính:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

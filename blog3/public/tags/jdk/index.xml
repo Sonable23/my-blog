@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jdk on Hai Son&#39;s Blog</title>
+    <link>http://localhost:1313/tags/jdk/</link>
+    <description>Recent content in Jdk on Hai Son&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Dec 2024 10:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/jdk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới thiệu chi tiết về Java</title>
+      <link>http://localhost:1313/posts/chi-tiet-java/</link>
+      <pubDate>Tue, 24 Dec 2024 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/chi-tiet-java/</guid>
+      <description>&lt;h2 id=&#34;giới-thiệu-chi-tiết-về-java&#34;&gt;&#xD;&#xA;  Giới thiệu chi tiết về Java&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#gi%e1%bb%9bi-thi%e1%bb%87u-chi-ti%e1%ba%bft-v%e1%bb%81-java&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Java là một ngôn ngữ lập trình đa nền tảng, hướng đối tượng và được sử dụng rộng rãi trên toàn thế giới. Được phát triển bởi James Gosling và các đồng nghiệp tại Sun Microsystems (sau này được Oracle mua lại), Java ra đời với mục tiêu &amp;ldquo;Write Once, Run Anywhere&amp;rdquo; (WORA - Viết một lần, chạy mọi nơi).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Giới thiệu chi tiết về JavaScript · Hai Son&#39;s Blog
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Hai Son">
+<meta name="description" content="Tìm hiểu chi tiết về ngôn ngữ lập trình JavaScript, từ lịch sử hình thành đến các khái niệm cốt lõi và ứng dụng đa dạng trong phát triển web và hơn thế nữa.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Giới thiệu chi tiết về JavaScript">
+  <meta name="twitter:description" content="Tìm hiểu chi tiết về ngôn ngữ lập trình JavaScript, từ lịch sử hình thành đến các khái niệm cốt lõi và ứng dụng đa dạng trong phát triển web và hơn thế nữa.">
+
+<meta property="og:url" content="http://localhost:1313/posts/chi-tiet-javascript/">
+  <meta property="og:site_name" content="Hai Son&#39;s Blog">
+  <meta property="og:title" content="Giới thiệu chi tiết về JavaScript">
+  <meta property="og:description" content="Tìm hiểu chi tiết về ngôn ngữ lập trình JavaScript, từ lịch sử hình thành đến các khái niệm cốt lõi và ứng dụng đa dạng trong phát triển web và hơn thế nữa.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-21T11:00:00+07:00">
+    <meta property="article:modified_time" content="2024-12-21T11:00:00+07:00">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="Lap-Trinh">
+    <meta property="article:tag" content="Web">
+    <meta property="article:tag" content="Frontend">
+    <meta property="article:tag" content="Backend">
+    <meta property="article:tag" content="Nodejs">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/chi-tiet-javascript/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Hai Son&#39;s Blog
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about-me/">About Me</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/chi-tiet-javascript/">
+              Giới thiệu chi tiết về JavaScript
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-12-21T11:00:00&#43;07:00">
+                December 21, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/hai-son/">Hai Son</a></div>
+
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/l%E1%BA%ADp-tr%C3%ACnh/">Lập Trình</a>
+      <span class="separator">•</span>
+    <a href="/categories/javascript/">JavaScript</a>
+      <span class="separator">•</span>
+    <a href="/categories/web/">Web</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/javascript/">Javascript</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/lap-trinh/">Lap-Trinh</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/web/">Web</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/frontend/">Frontend</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/backend/">Backend</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/nodejs/">Nodejs</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h2 id="giới-thiệu-chi-tiết-về-javascript">
+  Giới thiệu chi tiết về JavaScript
+  <a class="heading-link" href="#gi%e1%bb%9bi-thi%e1%bb%87u-chi-ti%e1%ba%bft-v%e1%bb%81-javascript">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>JavaScript là một ngôn ngữ lập trình thông dịch, đa năng, chủ yếu được sử dụng để tạo ra các trang web động và tương tác. Tuy có tên gọi gần giống Java, nhưng JavaScript là một ngôn ngữ hoàn toàn khác biệt.</p>
+<h3 id="lịch-sử-hình-thành">
+  Lịch sử hình thành
+  <a class="heading-link" href="#l%e1%bb%8bch-s%e1%bb%ad-h%c3%acnh-th%c3%a0nh">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>1995:</strong> Brendan Eich phát triển JavaScript tại Netscape Communications với tên ban đầu là &ldquo;Mocha&rdquo;, sau đó đổi thành &ldquo;LiveScript&rdquo; và cuối cùng là &ldquo;JavaScript&rdquo;.</li>
+<li><strong>Ban đầu:</strong> JavaScript được thiết kế để chạy trên trình duyệt web, giúp tạo ra các trang web động và tương tác.</li>
+<li><strong>Hiện tại:</strong> JavaScript đã phát triển mạnh mẽ và được sử dụng rộng rãi trong cả front-end (giao diện người dùng) và back-end (phía máy chủ) với Node.js, cũng như trong phát triển ứng dụng di động (React Native, Ionic) và nhiều lĩnh vực khác.</li>
+</ul>
+<h3 id="đặc-điểm-của-javascript">
+  Đặc điểm của JavaScript
+  <a class="heading-link" href="#%c4%91%e1%ba%b7c-%c4%91i%e1%bb%83m-c%e1%bb%a7a-javascript">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Thông dịch (Interpreted):</strong> Mã JavaScript được thông dịch trực tiếp bởi trình duyệt web (hoặc môi trường Node.js), không cần biên dịch trước.</li>
+<li><strong>Kiểu dữ liệu động (Dynamic Typing):</strong> Kiểu dữ liệu của biến được xác định tại thời điểm chạy, không cần khai báo kiểu dữ liệu rõ ràng.</li>
+<li><strong>Hướng đối tượng dựa trên Prototype (Prototype-based OOP):</strong> JavaScript sử dụng prototype để kế thừa, khác với class-based OOP của Java.</li>
+<li><strong>Client-side scripting:</strong> Chạy trên trình duyệt web, giúp tạo ra các trang web tương tác và động.</li>
+<li><strong>Server-side scripting (Node.js):</strong> Cho phép JavaScript chạy trên máy chủ, mở rộng khả năng ứng dụng của JavaScript sang backend.</li>
+<li><strong>Đa nền tảng:</strong> Có thể chạy trên nhiều hệ điều hành và thiết bị.</li>
+</ul>
+<h3 id="cú-pháp-cơ-bản">
+  Cú pháp cơ bản
+  <a class="heading-link" href="#c%c3%ba-ph%c3%a1p-c%c6%a1-b%e1%ba%a3n">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Khai báo biến
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">message</span> <span class="o">=</span> <span class="s2">&#34;Hello, World!&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// In ra console
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">message</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Hàm
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">function</span> <span class="nx">greet</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="s2">&#34;Hello, &#34;</span> <span class="o">+</span> <span class="nx">name</span> <span class="o">+</span> <span class="s2">&#34;!&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">greet</span><span class="p">(</span><span class="s2">&#34;JavaScript&#34;</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Câu điều kiện
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nx">x</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;x lớn hơn 5&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Vòng lặp
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2021 -
+    
+    2024
+     Hai Son 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

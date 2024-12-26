@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Các thư viện phổ biến của JavaScript · Hai Son&#39;s Blog
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Hai Son">
+<meta name="description" content="Tổng hợp các thư viện JavaScript hữu ích cho phát triển web và ứng dụng.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Các thư viện phổ biến của JavaScript">
+  <meta name="twitter:description" content="Tổng hợp các thư viện JavaScript hữu ích cho phát triển web và ứng dụng.">
+
+<meta property="og:url" content="http://localhost:1313/posts/javascript-libraries/">
+  <meta property="og:site_name" content="Hai Son&#39;s Blog">
+  <meta property="og:title" content="Các thư viện phổ biến của JavaScript">
+  <meta property="og:description" content="Tổng hợp các thư viện JavaScript hữu ích cho phát triển web và ứng dụng.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-26T10:00:00+07:00">
+    <meta property="article:modified_time" content="2024-12-26T10:00:00+07:00">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="Library">
+    <meta property="article:tag" content="Thu-Vien">
+    <meta property="article:tag" content="Front-End">
+    <meta property="article:tag" content="Web">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/javascript-libraries/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Hai Son&#39;s Blog
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about-me/">About Me</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/javascript-libraries/">
+              Các thư viện phổ biến của JavaScript
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-12-26T10:00:00&#43;07:00">
+                December 26, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/hai-son/">Hai Son</a></div>
+
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/javascript/">JavaScript</a>
+      <span class="separator">•</span>
+    <a href="/categories/l%E1%BA%ADp-tr%C3%ACnh-web/">Lập Trình Web</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/javascript/">Javascript</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/library/">Library</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/thu-vien/">Thu-Vien</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/front-end/">Front-End</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/web/">Web</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h2 id="giới-thiệu">
+  Giới thiệu
+  <a class="heading-link" href="#gi%e1%bb%9bi-thi%e1%bb%87u">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>JavaScript là ngôn ngữ lập trình front-end phổ biến nhất. Các thư viện JavaScript mở rộng khả năng của JavaScript, giúp phát triển web và ứng dụng hiệu quả hơn.</p>
+<h2 id="các-thư-viện-phổ-biến">
+  Các thư viện phổ biến
+  <a class="heading-link" href="#c%c3%a1c-th%c6%b0-vi%e1%bb%87n-ph%e1%bb%95-bi%e1%ba%bfn">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-thư-viện-giao-diện-người-dùng-ui-libraries">
+  1. Thư viện giao diện người dùng (UI Libraries)
+  <a class="heading-link" href="#1-th%c6%b0-vi%e1%bb%87n-giao-di%e1%bb%87n-ng%c6%b0%e1%bb%9di-d%c3%b9ng-ui-libraries">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>React:</strong> Thư viện được phát triển bởi Facebook, tập trung vào xây dựng giao diện người dùng dựa trên component.</li>
+<li><strong>Angular:</strong> Framework đầy đủ được phát triển bởi Google, cung cấp cấu trúc cho các ứng dụng web phức tạp.</li>
+<li><strong>Vue.js:</strong> Framework dễ học và linh hoạt, được sử dụng cho cả single-page applications và các ứng dụng web phức tạp.</li>
+</ul>
+<h3 id="2-thư-viện-thao-tác-dom">
+  2. Thư viện thao tác DOM
+  <a class="heading-link" href="#2-th%c6%b0-vi%e1%bb%87n-thao-t%c3%a1c-dom">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>jQuery:</strong> Thư viện giúp đơn giản hóa việc thao tác với DOM, xử lý sự kiện và hiệu ứng. Tuy nhiên, hiện tại ít được sử dụng do các API của JavaScript đã phát triển mạnh.</li>
+</ul>
+<h3 id="3-thư-viện-trực-quan-hóa-dữ-liệu">
+  3. Thư viện trực quan hóa dữ liệu
+  <a class="heading-link" href="#3-th%c6%b0-vi%e1%bb%87n-tr%e1%bb%b1c-quan-h%c3%b3a-d%e1%bb%af-li%e1%bb%87u">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>D3.js:</strong> Thư viện mạnh mẽ để tạo ra các biểu đồ và hình ảnh trực quan dựa trên dữ liệu.</li>
+<li><strong>Chart.js:</strong> Thư viện đơn giản hơn D3.js, cung cấp các loại biểu đồ phổ biến.</li>
+</ul>
+<h3 id="4-thư-viện-tiện-ích">
+  4. Thư viện tiện ích
+  <a class="heading-link" href="#4-th%c6%b0-vi%e1%bb%87n-ti%e1%bb%87n-%c3%adch">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Lodash:</strong> Cung cấp các hàm tiện ích cho việc thao tác với arrays, objects, strings&hellip;</li>
+<li><strong>Moment.js (đã lỗi thời, nên dùng Day.js hoặc Luxon):</strong> Thư viện để xử lý thời gian và ngày tháng.</li>
+</ul>
+<h3 id="5-thư-viện-quản-lý-trạng-thái">
+  5. Thư viện quản lý trạng thái
+  <a class="heading-link" href="#5-th%c6%b0-vi%e1%bb%87n-qu%e1%ba%a3n-l%c3%bd-tr%e1%ba%a1ng-th%c3%a1i">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Redux:</strong> Thường được sử dụng với React, giúp quản lý trạng thái của ứng dụng một cách tập trung.</li>
+<li><strong>Vuex:</strong> Tương tự như Redux, nhưng dành cho Vue.js.</li>
+</ul>
+<h3 id="6-thư-viện-http-client">
+  6. Thư viện HTTP Client
+  <a class="heading-link" href="#6-th%c6%b0-vi%e1%bb%87n-http-client">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Axios:</strong> Thư viện HTTP client dựa trên Promise, dễ sử dụng và hỗ trợ nhiều tính năng.</li>
+<li><strong>Fetch API (built-in):</strong> API được tích hợp sẵn trong trình duyệt để thực hiện các yêu cầu HTTP.</li>
+</ul>
+<h2 id="kết-luận">
+  Kết luận
+  <a class="heading-link" href="#k%e1%ba%bft-lu%e1%ba%adn">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Sự đa dạng của các thư viện JavaScript cho phép lập trình viên lựa chọn công cụ phù hợp với nhu cầu của dự án. Việc sử dụng thư viện giúp tăng tốc độ phát triển và cải thiện chất lượng ứng dụng.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2021 -
+    
+    2024
+     Hai Son 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

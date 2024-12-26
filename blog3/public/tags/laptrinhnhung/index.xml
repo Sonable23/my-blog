@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laptrinhnhung on Hai Son&#39;s Blog</title>
+    <link>http://localhost:1313/tags/laptrinhnhung/</link>
+    <description>Recent content in Laptrinhnhung on Hai Son&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Dec 2024 10:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/laptrinhnhung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ứng dụng thực tế của Java và JavaScript trong IoT (Internet of Things)</title>
+      <link>http://localhost:1313/posts/ungdung-iot/</link>
+      <pubDate>Wed, 25 Dec 2024 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/ungdung-iot/</guid>
+      <description>&lt;h2 id=&#34;ứng-dụng-thực-tế-của-java-và-javascript-trong-iot-internet-of-things&#34;&gt;&#xD;&#xA;  Ứng dụng thực tế của Java và JavaScript trong IoT (Internet of Things)&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e1%bb%a9ng-d%e1%bb%a5ng-th%e1%bb%b1c-t%e1%ba%bf-c%e1%bb%a7a-java-v%c3%a0-javascript-trong-iot-internet-of-things&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Internet of Things (IoT) đang thay đổi cách chúng ta tương tác với thế giới xung quanh. Từ các thiết bị gia dụng thông minh đến các hệ thống công nghiệp phức tạp, IoT kết nối mọi thứ và tạo ra một lượng dữ liệu khổng lồ. Trong bài viết này, chúng ta sẽ tìm hiểu cách Java và JavaScript, hai ngôn ngữ lập trình phổ biến, được sử dụng trong lĩnh vực đầy tiềm năng này.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
