@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "https://sonable23.github.io/my-blog/"
 title = "Hai Son's Blog"
 theme = "hugo-coder"
 languageCode = "en"
@@ -17,7 +17,7 @@ pagerSize = 6
 noClasses = false
 
 [params]
-author = "Hai Son"
+author = "Hải Sơn"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Hai Son's personal blog"
 keywords = "blog,developer,personal"
